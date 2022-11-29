@@ -34,5 +34,4 @@ export class CreateInputsDetailstDto {
   @ApiProperty()
   readonly image: string;
 }
-
 export class UpdateInputDetailsDto extends PartialType(CreateInputsDetailstDto) {}
